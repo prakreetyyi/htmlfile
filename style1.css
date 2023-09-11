@@ -1,0 +1,155 @@
+body,h1,h2,p,ul,li{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(255, 0, 13);
+    background-image:url('3background.jpeg');
+    -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    
+    text-align:center;
+    padding:10px;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+}
+
+nav a{
+    text-decoration: none;
+    color:#19d73c;
+    margin:0 15px;
+    transition:color 0.3s;
+}
+
+nav a:hover{
+    color:#e71515;
+}
+
+.products{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:20px;
+}
+
+.product{
+    background-color: #fff;
+    border:1px solid #ddd;
+    border-radius:5px;
+    padding:20px;
+    margin:10px;
+    width:300px;
+    text-align:center;
+}
+
+.product img{
+    max-width: 100%;
+}
+
+.price{
+    font-weight: bold;
+    margin-top:10px;
+}
+
+.add-to-cart{
+    background-color: #333;
+    color:#fff;
+    border:none;
+    padding:5px 10px;
+    cursor:pointor;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover{
+    background-color: #555555;
+}
+
+footer{
+    text-align:center;
+    padding:10px;
+    background-color: #7510db;
+}
+#login_form {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    right: 30%;
+    bottom: 20%;
+    font-size: 18px;
+}
+
+#f1 {
+    background-color:rgb(14, 220, 65);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e71515;
+    
+}
+.f1_label {
+    white-space: nowrap;
+}
+
+h1,
+p,
+a{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+}
+
+h1 {
+  font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 800;
+}
+
+p {
+  font-size: 1.1em;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+.header {
+  width: 100%;
+  padding:60px 0;
+  text-align: center;
+  background: #33cccc;
+  color: rgb(244, 18, 18);
+}
+
+
+.btn-bgstroke {
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 30px; 
+}
+
+.btn-bgstroke:hover {
+  background-color:white;
+  color: #33cccc;
+}
+.stylle{
+    background-color:black;
+    border-radius: 0%;
+    box-shadow: #7510db;
+}
